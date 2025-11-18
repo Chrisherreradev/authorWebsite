@@ -1,5 +1,5 @@
 /* ================== VARIABLES PARA AJUSTES RÁPIDOS ================== */
-:root{
+/*:root{
   --container-width: 70vw;          
   --container-max-width: 1200px;
   --container-height: 70vh;
@@ -14,10 +14,10 @@
   --author-photo-size: 180px;
 
   --nav-font-size: 2.8rem;
-}
+}*/
 
 /* ================== CONFIGURACIÓN GLOBAL ================== */
-* { box-sizing: border-box; }
+/** { box-sizing: border-box; }
 body {
     font-family: var(--font-sans);
     background: #023a51;
@@ -30,10 +30,10 @@ body {
     color: #333;
 }
 
-h1,h2,h3,h4 { font-family: var(--font-serif); }
+h1,h2,h3,h4 { font-family: var(--font-serif); }*/
 
 /* ================== HEADER ================== */
-.header {
+/*.header {
     position: fixed;
     top: 0;
     width: 100%;
@@ -62,10 +62,10 @@ h1,h2,h3,h4 { font-family: var(--font-serif); }
 .header-nav {
     font-size: 0.95rem;
     opacity: 0.85;
-}
+}*/
 
 /* ================== BOOK CONTAINER ================== */
-#book-container {
+/*#book-container {
     perspective: 1500px;
     width: var(--container-width);
     max-width: var(--container-max-width);
@@ -76,10 +76,10 @@ h1,h2,h3,h4 { font-family: var(--font-serif); }
     display: flex;
     justify-content: center;
     align-items: center;
-}
+}*/
 
 /* ================== BOOK / PAGES ================== */
-#book {
+/*#book {
     width: 100%;
     height: 100%;
     display: flex;
@@ -111,10 +111,10 @@ h1,h2,h3,h4 { font-family: var(--font-serif); }
     left: 50%;
     transform-origin: left center;
     border-left: 2px solid #a0a0a0;
-}
+}*/
 
 /* ================== TURNING PAGE (animada) ================== */
-.turning-page {
+/*.turning-page {
     position: absolute;
     width: 50%;
     height: 100%;
@@ -132,10 +132,10 @@ h1,h2,h3,h4 { font-family: var(--font-serif); }
 .turning-page.active-backward { display: block; left: 0; transform-origin: right center; }
 
 .turn-forward-animate { transform: rotateY(-180deg); }
-.turn-backward-animate { transform: rotateY(180deg); }
+.turn-backward-animate { transform: rotateY(180deg); }*/
 
 /* ================== NAV BUTTONS ================== */
-.nav-button {
+/*.nav-button {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -162,11 +162,11 @@ h1,h2,h3,h4 { font-family: var(--font-serif); }
 }
 
 #prev-btn { left: -10%; }
-#next-btn { right: -10%; }
+#next-btn { right: -10%; }*/
 
 /* ================== CONTENT ELEMENTS ================== */
 /* ===== CENTRADO COMPLETO DEL BLOQUE ===== */
-.author-intro {
+/*.author-intro {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -174,10 +174,10 @@ h1,h2,h3,h4 { font-family: var(--font-serif); }
     text-align: center;
     height: 100%;
     padding: var(--page-padding);
-}
+}*/
 
 /* ===== ANILLO CONCÉNTRICO ===== */
-.author-photo-ring {
+/*.author-photo-ring {
     width: calc(var(--author-photo-size) + 10px);
     height: calc(var(--author-photo-size) + 10px);
     border-radius: 50%;
@@ -196,10 +196,10 @@ h1,h2,h3,h4 { font-family: var(--font-serif); }
     object-fit: cover;
     border: 4px solid #f7f3e8;
     box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-}
+}*/
 
 /* ===== TEXTO ===== */
-.author-name {
+/*.author-name {
     font-size: 2rem;
     font-weight: 700;
     margin: 0.25rem 0;
@@ -235,10 +235,10 @@ h1,h2,h3,h4 { font-family: var(--font-serif); }
     line-height: 1.6;
     font-size: calc(var(--page-text-size));
     color: #4b4b4b;
-}
+}*/
 
 /* Inputs y Botones */
-input[type="text"], input[type="email"], textarea {
+/*input[type="text"], input[type="email"], textarea {
     width: 100%;
     padding: 0.5rem;
     border-radius: 0.35rem;
@@ -258,9 +258,9 @@ button.primary {
 }
 
 /* Botón volver al inicio */
-.home-button-container {
+/*.home-button-container {
     position: absolute;
-    bottom: 15px;   /* casi en la esquina inferior */
+    bottom: 15px;  
     right: 15px;
     z-index: 10;
 }
@@ -282,11 +282,11 @@ button.primary {
 .home-button:hover {
     background-color: #bdbdbd;
     transform: translateY(-1px);
-}
+}*/
 
 
 /* ================== FOOTER ================== */
-.footer {
+/*.footer {
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -302,10 +302,10 @@ button.primary {
 }
 
 .footer-links a { margin-left: 12px; color: #333; text-decoration: none; }
-.footer-links a:hover { color: #000; }
+.footer-links a:hover { color: #000; }*/
 
 /* ================== RESPONSIVE ================== */
-@media (max-width: 900px) {
+/*@media (max-width: 900px) {
     :root {
         --container-width: 95vw;
         --container-height: 70vh;
@@ -321,5 +321,267 @@ button.primary {
 
     .header-title { font-size: 1rem; }
     .header-nav { font-size: 0.85rem; }
+}*/
+
+/*--------------------------------------------------------------------------------*/
+/* ====== FUENTES ====== */
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #111827;
 }
 
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Cormorant Garamond', serif;
+    margin: 0;
+}
+
+/* ====== HEADER ====== */
+.header {
+    background-color: #111827;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.header-title {
+    font-size: 1.5rem;
+}
+
+.header-nav {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    color: #9ca3af;
+}
+
+/* ====== BOOK ====== */
+#book-container {
+    position: relative;
+    max-width: 960px;
+    margin: 2rem auto;
+    perspective: 1500px;
+}
+
+#book {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    position: relative;
+}
+
+.book-page {
+    background-color: white;
+    flex: 1 1 48%;
+    min-height: 400px;
+    padding: 2rem;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+
+#turning-page-element {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 48%;
+    height: 100%;
+    transform-origin: left center;
+    backface-visibility: hidden;
+    z-index: 5;
+    border-radius: 12px;
+}
+
+/* ====== BOTONES DE NAVEGACION ====== */
+.nav-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #111827;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.2rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 50%;
+    z-index: 10;
+    transition: background 0.3s;
+}
+
+.nav-button:hover {
+    background-color: #374151;
+}
+
+#prev-btn { left: -2rem; }
+#next-btn { right: -2rem; }
+/* ====== BOTON VOLVER AL INICIO ====== */
+
+#back-to-start {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    z-index: 10;
+}
+
+#back-to-start:hover {
+    background-color: #374151;
+}
+
+/* ====== AUTOR ====== */
+.author-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.author-photo-ring {
+    width: 180px;
+    height: 180px;
+    border: 6px solid #6f6f71;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.author-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.author-name {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0.25rem 0;
+}
+
+.author-subtitle {
+    color: #6b7280;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+.author-bio {
+    max-width: 48ch;
+}
+
+/* ====== LINKS ====== */
+.book-link {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+.book-link:hover {
+    text-decoration: underline;
+}
+
+/* ====== FORMULARIO ====== */
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #d1d5db;
+    font-size: 0.9rem;
+    box-sizing: border-box;
+}
+
+.contact-form button {
+    background-color: #2563eb;
+    color: white;
+    padding: 0.6rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #1e40af;
+}
+
+/* ====== FOOTER ====== */
+.footer {
+    background-color: #111827;
+    color: white;
+    text-align: center;
+    padding: 1.5rem 1rem;
+    margin-top: 3rem;
+}
+
+.footer-links a {
+    color: #9ca3af;
+    margin: 0 0.5rem;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+/* ====== RESPONSIVE ====== */
+@media (max-width: 768px) {
+    .book-page {
+        flex: 1 1 100%;
+        min-height: auto;
+    }
+
+    #turning-page-element {
+        width: 100%;
+        left: 0;
+    }
+
+    .nav-button {
+        top: auto;
+        bottom: -2rem;
+        transform: translateY(0);
+        border-radius: 12px;
+        padding: 0.6rem 1rem;
+    }
+
+    #prev-btn { left: 1rem; }
+    #next-btn { right: 1rem; }
+
+    #back-to-start {
+        bottom: -3rem;
+        right: 1rem;
+    }
+}
+
+/* =======================
+   Responsive / Móviles
+======================= */
+@media (max-width: 600px) {
+    #book-container {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    #left-page,
+    #right-page {
+        width: 100%;
+        padding: 1rem;
+        min-height: auto;
+    }
+
+    #prev-btn,
+    #next-btn {
+        padding: 0.3rem 0.7rem;
+        font-size: 1rem;
+    }
+
+    #home-btn {
+        padding: 0.3rem 0.7rem;
+        font-size: 0.9rem;
+    }
+}

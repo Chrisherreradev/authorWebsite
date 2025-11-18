@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Libro Interactivo - Chris H.</title>
+
+    <!-- Fuentes -->
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="header-container">
+            <h1 class="header-title">Autor: Chris H.</h1>
+            <nav class="header-nav">Navega con </strong>&lt;  &gt;</strong></nav>
+        </div>
+    </header>
+
+    <!-- LIBRO -->
+    <div id="book-container">
+        <div id="book">
+            <div id="left-page" class="book-page left"></div>
+            <div id="right-page" class="book-page right"></div>
+            <div id="turning-page-element" class="turning-page"></div>
+        </div>
+
+        <button id="prev-btn" class="nav-button" aria-label="Anterior" disabled>&lt;</button>
+        <button id="next-btn" class="nav-button" aria-label="Siguiente">&gt;</button>
+
+        <!-- Botón volver al inicio -->
+        <div class="home-button-container">
+            <button id="home-btn" class="home-button">&lt;- Volver al inicio</button>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>&copy; 2025 Chris H. | Todos los derechos reservados.</p>
+        <div class="footer-links">
+            <a href="#" target="https://www.instagram.com/chris_h.autor" rel="noopener">Instagram</a>
+        </div>
+    </footer>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
+
+

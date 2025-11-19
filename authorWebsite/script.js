@@ -62,7 +62,7 @@ const spreads = [
                     <a href="https://amzn.to/4hI5eNs" target="_blank" class="book-link">Comprar en Amazon →</a>
                     <p class="obra-link">
                         🎬 Booktrailer:  
-                        <a href="https://youtu.be/NT8dps2Dyuk?si=1nxC_sE9_3TP4YXA" target="_blank">
+                        <a href="https://youtu.be/NT8dps2Dyuk?si=1nxC_sE9_3TP4YXA" target="_blank" class="book-link">
                             Ver en Youtube
                         </a>
                     </p>

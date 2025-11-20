@@ -59,7 +59,7 @@ const spreads = [
                     <p class="page-text" style="margin:0 0 0.5rem; font-size:0.95rem;">
                         Un códice ancestral fusiona ciencia y magia en el Japón feudal. El destino de la humanidad pende de un hilo.
                     </p>
-                    <a href="https://amzn.to/4hI5eNs" target="_blank" class="book-link">Comprar en Amazon →</a>
+                    <a href="https://a.co/d/8TFgxEx" target="_blank" class="book-link">Comprar en Amazon →</a>
                     <p class="obra-link">
                         🎬 Booktrailer:  
                         <a href="https://youtu.be/NT8dps2Dyuk?si=1nxC_sE9_3TP4YXA" target="_blank" class="book-link">
@@ -125,8 +125,8 @@ const spreads = [
                         Contribuí con dos relatos originales:
                     </p>
                     <ul style="margin-left:0.5rem; line-height:1.7; font-size:0.95rem;">
-                        <li><strong>• "Visión Futura"</strong></li>
-                        <li><strong>• "Enigma del Edén"</strong></li>
+                        <li><strong> "Visión Futura"</strong></li>
+                        <li><strong> "Enigma del Edén"</strong></li>
                     </ul>
                     <p class="page-text" style="margin-top:1rem; font-size:0.95rem;">
                         Puedes encontrar la antología aquí:<br>
